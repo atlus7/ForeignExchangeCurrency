@@ -1,0 +1,11 @@
+What works?
+* All minimal requirements should be met.
+* Validates input to be number, if not input is set to its default value, 10.
+* App makes sure that user cannot add currencies that have already been added.
+* App makes sure that add button disappear once all the availabe currencies have been added.
+
+
+What my version does not handle/take care of:
+* Responsive web design.
+* Decimal places.
+* Building automated tests are usually done by QA Engineer in my previous companies, so I have no experience in that. I would love to learn, though.

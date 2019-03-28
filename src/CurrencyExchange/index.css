@@ -1,0 +1,106 @@
+body {
+  font-size: 14px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.header {
+  padding: 8px 20px;
+  border-bottom: 1px solid black;
+}
+
+.header__title {
+  font-style: italic;
+  margin-bottom: 7px;
+}
+
+.header__input {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header__help {
+  font-size: 10px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.inline-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.input {
+  float: right;
+}
+
+.content {
+  padding: 20px 20px 0 20px;
+}
+
+.add-new-btn {
+  border: 1px solid black;
+  padding: 6px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  border-left: 1px solid black;
+  padding: 0 10px;
+  line-height: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.entry {
+  border: 1px solid black;
+  padding: 6px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.entry__info-box {
+  width: 89%;
+}
+
+.entry__info-first {
+  font-size: 18px;
+  position: relative;
+}
+
+.entry__info-second {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.entry__new-value {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.entry__delete-box {
+  width: 10%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-left: 1px solid black;
+  height: 100%;
+  text-align: center;
+}
+
+.entry__delete-box div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
